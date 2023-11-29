@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /*background-color: #f0f0f0; */
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: rgb(185,39,39);
+    background: linear-gradient(90deg, rgba(185,39,39,1) 47%, rgba(230,223,223,1) 61%);
+    font-size: 120%;
+}
+
+.boxleft{
+    background: rgb(185,39,39);
+    height: 100%;
+    width: 35%;
+    display: flex;
+    text-align: left;
+    border-right: 5px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.boxred-logo{
+    width: 250px;
+    height: 184px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-left: 2px solid;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.boxred-contact{
+    width: 280px;
+    height: 150px;
+    margin-top: 130px;
+    margin-left: 50px;
+    padding-left: 30px;
+    border-left: 2px solid;
+    line-height: 8px;
+}
+
+.boxred-social-title{
+    width: 250px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-weight: bold;
+    padding-left: 30px;
+    border-left: 2px solid;
+}
+
+.boxred-social-logo{
+    width: 250px;
+    height: 80px;
+    margin-left: 50px;
+    display: flex;
+    border-left: 2px solid;
+}
+
+.social-logo{
+    width: 80px;
+    height: 80px;
+   
+    padding-left: 30px;
+}
+
+
+/* === === BOX PHOTO === === */
+.boxphoto{
+    width: 450px;
+    height: 650px;
+    margin-top: 50px;
+    background-color: blue;
+    display: flex;
+    align-items: stretch;
+    margin-left: 380px;
+    position: absolute;
+}
+
+.boxphoto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste l'image tout en préservant son rapport hauteur/largeur et en la faisant tenir dans le conteneur */
+    border: 7px solid ;
+    box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.17);
+}
+
+/* === === BOX BLANC === === */
+
+.boxright{
+    height: 100%;
+    width: 37%;
+    display: flex;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 390px;
+}
+
+.boxright-logo{
+    width: 90%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: right;
+}
+
+.boxright-logo img{
+    width: 7%;
+}
+
+.boxright-name{
+    width: 90%;
+    height: 110px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 5px;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+
+#firat{
+    color: rgb(185,39,39);
+}
+
+
+.boxright-text{
+    width: 90%;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 120%;
+    border-left: 2px solid;
+    padding-left: 10px;
+    
+}
+
+#sous-titre{
+    font-weight: bold;
+}
+
